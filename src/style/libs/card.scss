@@ -1,0 +1,41 @@
+.container{
+    display:flex;
+    .section1{
+        display:flex;
+        flex-wrap:wrap-reverse;
+        flex:70%;
+        .card{
+            padding: 10px 10px 10px 10px;
+        }
+        a{
+            color: blue;
+        }
+    }
+
+
+
+    .section2{
+        flex:30%;
+        padding:20px 20px 20px 20px;
+        background-color: rgba(171, 153, 188, 0.345);
+        border-radius:30px;
+        h1{
+            color: #ffff;
+        }
+        
+    }
+    .btn-add{
+        margin-top: 40px;
+        margin-left: 440px;
+        color: rgb(171, 153, 188);
+        border-color: rgb(171, 153, 188);
+    }
+    
+}
+
+.clamp-lines__button{
+    border-color: rgb(164, 109, 109);
+    border-radius: 9px;
+    color: rgb(164, 109, 109);
+
+}
